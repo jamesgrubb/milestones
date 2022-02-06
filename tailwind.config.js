@@ -4,7 +4,13 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        brandRegular: "'borough_groteskregular'",
+        brandShaded: "'borough_groteskshaded'",
+        brandSerif: "'new-spirit'",
+      },
+    },
   },
   plugins: [],
 }

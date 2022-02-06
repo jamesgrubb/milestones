@@ -1,3 +1,22 @@
+@import url('https://use.typekit.net/yqf8koh.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'borough_groteskregular';
+    src: url('/fonts/boroughgrotesk-regular-webfont.woff2') format('woff2'),
+      url('/fonts/boroughgrotesk-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'borough_groteskshaded';
+    src: url('/fonts/boroughgrotesk-shaded-webfont.woff2') format('woff2'),
+      url('/fonts/boroughgrotesk-shaded-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
